@@ -65,7 +65,7 @@ mamba activate VS2d
 ```
 
 ```
-virsorter run --keep-original-seq -i contigs.fasta -w vs2-pass --include-groups dsDNAphage,ssDNA --min-length 10000 --min-score 0.5 -j 5 all
+virsorter run --keep-original-seq -i contigs.fasta -w vs2-pass --include-groups dsDNAphage,ssDNA --min-length 50000 --min-score 0.5 -j 5 all
 ```
 
 Podemos revisar el reporte de VirSorter2 en el archivo **final-viral-score.tsv**
